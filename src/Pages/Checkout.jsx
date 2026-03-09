@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useCart } from "../Context/CartContext";
 import { FaCreditCard } from "react-icons/fa";
-import JazzCashLogo from "../assets/jazzcash-image.jpeg"; 
-import EasypaisaLogo from "../assets/easypaise-image.jpeg"; 
+import JazzCashLogo from "../assets/jazzcash-image.png"; 
+import EasypaisaLogo from "../assets/easypaise-image.png"; 
 
 const Checkout = () => {
   const { cart, total, clearCart } = useCart();
